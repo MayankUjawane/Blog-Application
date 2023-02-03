@@ -1,7 +1,6 @@
 package io.reflectoring.Blog.Application.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException {
-
     String resourceName;
     String fieldName;
     long fieldValue;
